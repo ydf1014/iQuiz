@@ -63,8 +63,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="quizTable" destination="KrD-Ln-tZo" id="WrE-Nu-f6k"/>
-                        <outlet property="tableQuiz" destination="128-qe-TBh" id="3RN-SD-1AF"/>
+                        <outlet property="quizTable" destination="KrD-Ln-tZo" id="jPj-EN-3NP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
