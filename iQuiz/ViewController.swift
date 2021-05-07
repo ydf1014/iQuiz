@@ -17,7 +17,6 @@ class quizSource:NSObject, UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "basicStyle", for: indexPath)
         cell.textLabel?.text = quizTitle[indexPath.row]
         cell.detailTextLabel?.text = quizDescription[indexPath.row]
-        cell.imageView?.image = 
 
         return cell
     }
@@ -42,5 +41,13 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func popSettings(_ sender: Any) {
+        let alert = UIAlertController(title: "Settings", message: "OK", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: "Good to go"), style: .default, handler: {
+            _ in NSLog("The \"OK\" alert occured.")
+        }))
+        present(alert, animated: true, completion: nil)
+    }
+    
 }
 
