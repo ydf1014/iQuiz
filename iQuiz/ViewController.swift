@@ -14,10 +14,20 @@ class QuizCell: UITableViewCell {
     
 }
 
+struct Question: Codable {
+    let text: String
+    let answer: String
+    let answers: [String]
+}
+
+struct Quiz: Codable {
+    let title: String
+    let desc: String
+    let questions: [Question]
+}
+
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
-    
-    
-    
+
 //    let data = quizSource()
     @IBOutlet weak var quizTable: UITableView!
     
@@ -52,7 +62,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     var quizDescription = ["Dealing with numbers","Characters in the Marvel Universe","Systematic study of our world"]
     var quizImage = [UIImage(named: "math")!, UIImage(named: "marvel")!, UIImage(named: "science")!]
     var quizCell: [(title: String, description: String, img: UIImage)] = [(title: String, description: String, img: UIImage)]()
-    
 
     
     @IBAction func popSettings(_ sender: Any) {

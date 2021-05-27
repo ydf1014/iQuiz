@@ -15,6 +15,7 @@
 		171525962644B1040025B472 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 171525942644B1040025B472 /* LaunchScreen.storyboard */; };
 		171525A12644B1050025B472 /* iQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171525A02644B1050025B472 /* iQuizTests.swift */; };
 		171525AC2644B1050025B472 /* iQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171525AB2644B1050025B472 /* iQuizUITests.swift */; };
+		17E8EDA42655F27D00798502 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E8EDA32655F27D00798502 /* QuestionsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		171525A72644B1050025B472 /* iQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		171525AB2644B1050025B472 /* iQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iQuizUITests.swift; sourceTree = "<group>"; };
 		171525AD2644B1050025B472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17E8EDA32655F27D00798502 /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				1715258B2644B1020025B472 /* SceneDelegate.swift */,
 				1715258D2644B1020025B472 /* ViewController.swift */,
 				1715258F2644B1020025B472 /* Main.storyboard */,
+				17E8EDA32655F27D00798502 /* QuestionsViewController.swift */,
 				171525922644B1040025B472 /* Assets.xcassets */,
 				171525942644B1040025B472 /* LaunchScreen.storyboard */,
 				171525972644B1040025B472 /* Info.plist */,
@@ -260,6 +263,7 @@
 			files = (
 				1715258E2644B1020025B472 /* ViewController.swift in Sources */,
 				1715258A2644B1020025B472 /* AppDelegate.swift in Sources */,
+				17E8EDA42655F27D00798502 /* QuestionsViewController.swift in Sources */,
 				1715258C2644B1020025B472 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
